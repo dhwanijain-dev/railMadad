@@ -34,8 +34,8 @@ const MidSection = () => {
 
     })
     return (
-        <div className='h-screen  flex   flex-col md:flex-row w-full'>
-            <div className='leftCol pl-40 py-40 w-[40vw] h-screen relative   flex justify-center '>
+        <div className='h-screen  flex   flex-col md:flex-row w-full '>
+        <div className='leftCol pl-40 py-40 w-[40vw] h-screen relative flex justify-center items-center'>
                 <div className='flex md:gap-20 gap-8 flex-row  flex-wrap absolute w-[100vw] left-0 md:w-[40vw]'>
 
                     <div className='flex mb-5 flex-col h-16 w-16 items-center'>
@@ -101,7 +101,7 @@ const MidSection = () => {
                     </div>
                     
                 </div>
-                <div className='bg-[#ffffffe6] flex flex-col absolute md:top-20 md:right-10 top-32  h-[721px] w-[100vw] md:h-[721px] md:w-[692px]'>
+                <div className='bg-[#ffffffe6] flex flex-col absolute md:top-20 md:right-10 top-24  h-[721px] w-[600px] md:h-[721px] md:w-[692px]'>
                 <div className='relative w-[100vh] h-[100vh] md:w-[100%] md:h-[100%]'>
 
                     <div className=' md:w-[100%] formField active h-[80%] w-[80%] md:h-[100%]  absolute'>

@@ -8,6 +8,9 @@
 *{
     font-family: "poppins", sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 textarea{
     resize: none;
 }

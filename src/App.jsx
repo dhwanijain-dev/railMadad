@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className=' font-[poppins] h-screen w-full  '>
     <img src={homebg} className='h-full w-full fixed top-0 b-0 -z-[1]' ></img>
-      <nav className='h-[160px] md:h-[108px] items-center top-0 flex flex-col  md:flex-row md:gap-[8vw]  px-16 w-[100vw] bg-white'>
+      <nav className='h-[160px] md:h-[108px] items-center top-0 flex flex-col  md:flex-row md:gap-[8vw]  px-16 w-[600px] bg-white'>
         <div className='flex gap-2 md:order-1 order-2 '>
 
           <img src={logo} className='h-[50px] w-[120px]  md:h-[70px] md:w-[170px]' />
